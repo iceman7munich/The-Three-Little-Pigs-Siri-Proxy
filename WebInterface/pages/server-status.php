@@ -102,9 +102,9 @@ if(count($keys[0]) > 0) {
         <td id="active-connections"><?php
 		
             if ($config['active_connections'] > ($config['max_connections'] * $keyFactor))
-                echo '<p class="notification red minimal">' . $config['active_connections'] . '</p>';
+                echo '<p class="notification yellow minimal">' . $config['active_connections'] . '</p>';
             else
-                echo '<p class="notification green minimal">' . $config['active_connections'] . '</p>';
+                echo '<p class="notification yellow minimal">' . $config['active_connections'] . '</p>';
             ?>
         </td>
 
@@ -176,17 +176,14 @@ if(count($keys[0]) > 0) {
 <p class="notification yellow" style="margin-top: 0;">All the keys are <b>overloaded</b>. This means the keys are getting a lot of load and are paused to prevent a ban. Please <a href="?page=feed-the-piggy">feed the piggy</a> to add <?php echo $config['max_connections'] ?> more connections!</p>
 <?php
 } elseif($config['active_connections'] >= ($config['max_connections'] * $keyFactor)) { ?>
-<p class="notification yellow" style="margin-top: 0;">The maximum connection count is reached. This means all new connections will get refused by the server. <a href="?page=feed-the-piggy">Feed the piggy</a> another key to add <?php echo $config['max_connections'] ?> more connections!</p>
+<p class="notification yellow" style="margin-top: 0;">The maximum connection count is reached. This means all new connections will get refused by the server. <a href="?page=feed-the-piggy">Feed the piggy</a> another key to add <?php echo $config['max_connections'] ?> more connections</p>
 
 <?php } ?>
 <!-- Project Wonderful Ad Box Code -->
-<div id="pw_adbox_61635_7_0"></div>
-<script type="text/javascript"></script>
-<noscript><map name="admap61635" id="admap61635"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&c=0&id=61635&type=7" shape="rect" coords="0,0,300,250" title="" alt="" target="_blank" /></map>
-<table cellpadding="0" cellspacing="0" style="width:300px;border-style:none;background-color:#ffffff;"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=61635&type=7" style="width:300px;height:250px;border-style:none;" usemap="#admap61635" alt="" /></td></tr><tr><td style="background-color:#ffffff;" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=61635&type=7" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0.06</a></center></td></tr></table>
-</noscript>
-<!-- End Project Wonderful Ad Box Code -->
-</div>
+<iframe src="http://widgets.itunes.apple.com/appstore.html?wtype=1&app_id=null&country=us&partnerId=0&affiliate_id=0" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height:300px;border:0px" ></iframe>
+
+<iframe src="http://widgets.itunes.apple.com/itunes.html?wtype=3&app_id=null&country=us&partnerId=0&affiliate_id=0" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height:300px;border:0px" ></iframe>
+<!-- End Project Wonderful Ad Box Code --> </div>
 </div>
 <br />
 <h1>Available keys</h1>
@@ -333,3 +330,18 @@ if(count($keys[0]) > 0) {
 		}
         ?>
     </table>
+    <p>How Many Hits This Site Has Gotten: <!-- Start of StatCounter Code for Dreamweaver -->
+<script type="text/javascript">
+var sc_project=7728560; 
+var sc_invisible=0; 
+var sc_security="cc905a87"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="counter on
+godaddy"
+href="http://statcounter.com/godaddy_website_tonight/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/7728560/0/cc905a87/0/"
+alt="counter on godaddy"></a></div></noscript>
+<!-- End of StatCounter Code for Dreamweaver --></p>
